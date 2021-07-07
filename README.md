@@ -1,7 +1,7 @@
 # Portfolio Website
 
 <p>
-  Personal portfolio/blog website to showcase my projects and some personal posts.
+  Personal blog website running on Jekyll.
 </p>
 
-<a href="https://b-rbmp.github.io/">Personal Website Link</a>
+<a href="https://b-rbmp.github.io/blog">Personal Blog Link</a>
