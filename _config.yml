@@ -18,10 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: </b-rbmp> Website
-email: bernardopmbr@gmail.com
+title: Blog do </b-rbmp>
 description: >- # this means to ignore newlines until "baseurl:"
-  Um site pessoal para exposição de projetos em formato de portfólio e postagens de blog
+  Um blog pessoal para exposição de artigos e posts
 baseurl: /blog # the subpath of your site, e.g. /blog
 url: b-rbmp.github.io # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: b-rbmp
@@ -30,13 +29,15 @@ permalink: /:title/
 markdown: kramdown
 paginate: 5
 paginate_path: "/:num/"
-date_format: "%b %-d, %Y"
-google_analytics: G-2GEGHX3EN1
+minima:
+  date_format: "%d-%m-%Y"
+google_analytics: G-33RNSF0JR4
+author: Bernardo Ribeiro
+email: bernardopmbr@gmail.com
 
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
