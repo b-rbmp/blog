@@ -1,0 +1,4 @@
+Para rodar o blog localmente:
+bundle exec jekyll serve
+
+Para enviar a nova versão para o GitHub, basta dar um push na gh-pages

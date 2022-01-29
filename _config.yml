@@ -20,10 +20,10 @@
 
 title: Blog do </b-rbmp>
 description: >- # this means to ignore newlines until "baseurl:"
-  Um blog pessoal para exposição de artigos e posts
+  Um blog pessoal para exposição de posts
 baseurl: /blog # the subpath of your site, e.g. /blog
 url: b-rbmp.github.io # the base hostname & protocol for your site, e.g. http://example.com
-linkedin_username: b-rbmp
+#linkedin_username: b-rbmp
 github_username:  b-rbmp
 permalink: /:title/
 markdown: kramdown
@@ -32,7 +32,7 @@ paginate_path: "/:num/"
 minima:
   date_format: "%d-%m-%Y"
 google_analytics: G-33RNSF0JR4
-author: Bernardo Ribeiro
+#author: Bernardo Ribeiro
 email: brbmp0@gmail.com
 
 # Build settings
