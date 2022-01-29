@@ -1,4 +1,5 @@
 Para rodar o blog localmente:
 bundle exec jekyll serve
 
-Para enviar a nova versão para o GitHub, basta dar um push na gh-pages
+Para enviar uma nova versão para o GitHub, criar uma nova branch no formato blog-patch-{num} (decisão pessoal)
+Fazer um pull-request e dar merge na gh-pages
