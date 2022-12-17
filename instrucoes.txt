@@ -1,3 +1,10 @@
+install:
+sudo dnf install ruby ruby-devel openssl-devel @development-tools gcc-c++
+sudo gem install bundler
+bundle config set --local path 'vendor/bundle'
+bundle install
+
+
 Para rodar o blog localmente:
 bundle exec jekyll serve
 
