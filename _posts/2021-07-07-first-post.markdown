@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Primeiro Post"
+title:  "First Post"
 date:   2021-07-07 16:14:19 -0300
 categories: jekyll update
 ---
-Este post é apenas um template para futuros posts neste blog
+Post Template
 
 {% highlight python %}
 def hello_world():
